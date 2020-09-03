@@ -11,9 +11,9 @@ class Quiz extends Component {
 
   render() {
     return (
-      <div>
-          <div className='QuizQuestion'>{this.props.quiz_questions.quiz_questions[0].instruction_text }</div>
-      </div>
+
+      <div className='QuizQuestion'>{this.props.quiz_questions.quiz_questions[0].instruction_text }</div>
+
     )
   }
 }
